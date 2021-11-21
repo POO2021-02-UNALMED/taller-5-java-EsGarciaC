@@ -46,7 +46,7 @@ public class Zoologico {
 		this.ubicacion = ubicacion;
 	}
 
-	public ArrayList<Zona> getZonas() {
+	public ArrayList<Zona> getZona() {
 		return zonas;
 	}
 

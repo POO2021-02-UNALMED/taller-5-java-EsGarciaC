@@ -34,14 +34,16 @@ public class Anfibio extends Animal{
 		return "Saltar";
 	}
 	
-	public static void crearRana(String nombre, int edad, String genero) {
-		Anfibio rana = new Anfibio(nombre, edad, "selva", genero, "rojo", true);
+	public static Animal crearRana(String nombre, int edad, String genero) {
+		Animal rana = new Anfibio(nombre, edad, "selva", genero, "rojo", true);
 		ranas++;
+		return rana;
 	}
 	
-	public static void crearSalamandra(String nombre, int edad, String genero) {
-		Anfibio rana = new Anfibio(nombre, edad, "selva", genero, "negro y amarillo", false);
+	public static Animal crearSalamandra(String nombre, int edad, String genero) {
+		Animal salamandra = new Anfibio(nombre, edad, "selva", genero, "negro y amarillo", false);
 		salamandras++;
+		return salamandra;
 	}
 
 	public static ArrayList<Anfibio> getListado() {

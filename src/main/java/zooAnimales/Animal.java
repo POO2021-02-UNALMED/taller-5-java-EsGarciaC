@@ -34,7 +34,7 @@ public class Animal {
 	}
 	
 	public String toString() {
-		if(zona == null) {
+		if(zona != null) {
 		return "Mi nombre es " + nombre + ", tengo una edad de " + edad + ", habito en " + habitat + " y mi genero es " + genero + ", la zona en la que me ubico es " + zona.getNombre() + ", en el " + zona.getZoo().getNombre();
 		}
 		else {
@@ -90,7 +90,10 @@ public class Animal {
 		this.zona = zona;
 	}
 	
-	
+	public static void main(String Args[]) {
+		Zoologico zoo = new Zoologico();
+		System.out.println(zoo);
+	}
 	
 	
 }

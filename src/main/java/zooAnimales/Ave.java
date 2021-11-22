@@ -31,7 +31,7 @@ public class Ave extends Animal {
 	@Override
 	public String movimiento() {
 		
-		return "Volar";
+		return "volar";
 	}
 	
 	public static Animal crearHalcon(String nombre, int edad, String genero) {

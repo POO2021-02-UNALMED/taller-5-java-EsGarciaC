@@ -90,10 +90,4 @@ public class Animal {
 		this.zona = zona;
 	}
 	
-	public static void main(String Args[]) {
-		Zoologico zoo = new Zoologico();
-		System.out.println(zoo);
-	}
-	
-	
 }
